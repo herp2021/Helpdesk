@@ -21,7 +21,7 @@ function updateCustomMenu() {
     const analysis = getSidebarAnalysis();
     unassignedCount = analysis.unassigned.length;
 
-    const menuTitle = unassignedCount > 0 ? `🔴 ERP Tools (${unassignedCount})` : 'ERP Tools';
+    const menuTitle = unassignedCount > 0 ? `🔴 New Tools (${unassignedCount})` : 'New Tools';
     
     // Create the menu
     ui.createMenu(menuTitle)
@@ -29,7 +29,7 @@ function updateCustomMenu() {
       .addToUi();
       
     if (unassignedCount > 0) {
-      SpreadsheetApp.getActiveSpreadsheet().toast(`Found ${unassignedCount} unassigned pending orders.`, "ERP Update");
+      SpreadsheetApp.getActiveSpreadsheet().toast(`Found ${unassignedCount} unassigned pending orders.`, "New Update");
     }
   } catch (e) {
     console.warn("Menu update skipped: " + e.message);
@@ -59,7 +59,7 @@ function checkUnassignedAndNotify() {
  */
 function showSidebar() {
   const html = HtmlService.createHtmlOutputFromFile('sidebar')
-    .setTitle('ERP Pending Dashboard')
+    .setTitle('Pending Dashboard')
     .setWidth(300);
   SpreadsheetApp.getUi().showSidebar(html);
 }
