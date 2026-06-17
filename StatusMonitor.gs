@@ -24,7 +24,7 @@ function checkStatusAndNotify() {
     return;
   }
 
-  const spreadsheetId = "1oHeb_Vm2MyGo3h-pkRW9eTnd7IvgHlnmCctb-gJdPoI";
+  const spreadsheetId = "yor Google SheetID";
   const ss = SpreadsheetApp.openById(spreadsheetId);
   const dataSheet = ss.getSheetByName("Data");
   
@@ -114,7 +114,7 @@ function checkStatusAndNotify() {
                   "Status: Solved\n\n" +
                   "If you require further assistance regarding this matter, please feel free to contact us.\n\n" +
                   "Thanks & Regards\n" +
-                  "Team ERP\n" +
+                  "Team Support\n" +
                   "[PHONE MASKED] | [PHONE MASKED] | [PHONE MASKED]"
           });
 
