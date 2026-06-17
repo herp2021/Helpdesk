@@ -37,7 +37,7 @@ A           | B   | C       | D        | E          | F      | G              | 
 ### Auto-Fill Process
 
 ```
-Google Form (https://forms.gle/LBQy4g4pxtpFMUG46)
+Google Form (https://forms.gle)
     ↓ (auto-submits when form is submitted)
 Helpdesk Form Sheet (Columns A-I)
     ↓ (trigger processes)
@@ -131,7 +131,7 @@ A | B       | C          | D | E        | F      | G | H         | I       | J  
 **Day 1: Ticket Creation**
 
 ```
-1. User submits form at: https://forms.gle/LBQy4g4pxtpFMUG46
+1. User submits form at: https://forms.gle
 
 2. Form auto-populates Helpdesk Form sheet:
    A2: 2026-06-17 10:30 (timestamp)
@@ -377,4 +377,4 @@ dataSheet.getRange(targetRow, 14).setValue(priority);  // Column N
 - [SETUP_GUIDE.md](./SETUP_GUIDE.md) - How to set up
 - [MAIL_COLUMN_FORMULA.md](./MAIL_COLUMN_FORMULA.md) - Formula details
 - [TRIGGER_SETUP.md](./TRIGGER_SETUP.md) - Trigger configuration
-- Form: https://forms.gle/LBQy4g4pxtpFMUG46
+- Form: https://forms.gle
