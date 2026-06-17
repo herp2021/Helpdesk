@@ -15,9 +15,6 @@
 
 ## Quick Start
 
-### 📝 Form Link
-**Submit tickets here:** https://forms.gle/LBQy4g4pxtpFMUG46
-
 ### 📚 Documentation
 1. **[Setup Guide](./SETUP_GUIDE.md)** - Complete step-by-step setup instructions
 2. **[Trigger Configuration](./TRIGGER_SETUP.md)** - How to set up automated triggers
