@@ -136,7 +136,7 @@ function checkStatusAndNotify() {
  * RUN THIS ONCE: Marks all current "Solved" rows as "SENT" in Column Z 
  */
 function markExistingAsSent() {
-  const spreadsheetId = "1oHeb_Vm2MyGo3h-pkRW9eTnd7IvgHlnmCctb-gJdPoI";
+  const spreadsheetId = "GoogleSheetID";
   const ss = SpreadsheetApp.openById(spreadsheetId);
   const dataSheet = ss.getSheetByName("Data");
   const lastRow = dataSheet.getLastRow();
