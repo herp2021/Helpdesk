@@ -4,7 +4,7 @@
 
 This guide shows you how to create a Google Form that will automatically submit data to your "Helpdesk Form" sheet.
 
-**Note:** The form link `https://forms.gle/LBQy4g4pxtpFMUG46` is a sample form. You need to create your own form and link it to your sheet.
+**Note:** You need to create your own form and link it to your sheet.
 
 ---
 
