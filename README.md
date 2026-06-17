@@ -46,7 +46,7 @@ Columns: SL | Store Name | Date | Date1 | Who Called | Reference No | Reference 
 ## Architecture
 
 ```
-Google Form (https://forms.gle/LBQy4g4pxtpFMUG46)
+Google Form 
     ↓
     ├─→ OnFormSubmit Trigger
     │   ├─→ Auto-sync to "Helpdesk Form" sheet
@@ -122,7 +122,7 @@ Before deploying, update these values in your scripts:
 - **Sheet Names**: Match your actual sheet names
 - **Email Recipients**: Update store email mapping
 - **Phone Numbers**: Update contact information
-- **Form Link**: https://forms.gle/LBQy4g4pxtpFMUG46
+- **Form Link**: https://forms.gle/
 
 See [CONFIG_TEMPLATE.js](./CONFIG_TEMPLATE.js) for details.
 
@@ -154,7 +154,7 @@ For issues or questions, refer to:
 - [SETUP_GUIDE.md](./SETUP_GUIDE.md) for installation help
 - [TRIGGER_SETUP.md](./TRIGGER_SETUP.md) for automation setup
 - [SHEET_SCHEMA.md](./SHEET_SCHEMA.md) for data structure questions
-- Form: https://forms.gle/LBQy4g4pxtpFMUG46
+- Form: https://forms.gle
 
 ## License
 
