@@ -10,7 +10,7 @@
 
 ## Step 1: Access the Google Form
 
-**Form Link:** https://forms.gle/LBQy4g4pxtpFMUG46
+**Form Link:** https://forms.gle
 
 This form is already set up with the correct fields:
 - Timestamp (auto)
@@ -56,7 +56,7 @@ This form is already set up with the correct fields:
 
 ### 2.3 Link Form to Sheet
 
-1. Open the Google Form: https://forms.gle/LBQy4g4pxtpFMUG46
+1. Open the Google Form: https://forms.gle
 2. Click **"Responses"** tab (top right)
 3. Click **"Link to spreadsheet"** icon (📊)
 4. Select your **"ERP Helpdesk"** spreadsheet
@@ -266,7 +266,7 @@ When you open the sheet, you'll see:
 
 ### 7.1 Test Form Submission
 
-1. Open form: https://forms.gle/LBQy4g4pxtpFMUG46
+1. Open form: https://forms.gle
 2. Fill out and submit a test response
 3. Wait ~5 seconds, then refresh your sheet
 4. Verify:
@@ -333,7 +333,7 @@ When you open the sheet, you'll see:
 
 ✅ Setup is complete! Now:
 
-1. Train staff to use the form: https://forms.gle/LBQy4g4pxtpFMUG46
+1. Train staff to use the form: https://forms.gle
 2. Monitor the "Data" sheet for incoming tickets
 3. Update "Assigned To" and "Status" columns as needed
 4. Watch Column M auto-fill when tickets are marked "Solved"
