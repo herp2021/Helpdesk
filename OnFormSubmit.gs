@@ -11,7 +11,7 @@ function onFormSubmit(e) {
   Utilities.sleep(2000);
 
   // --- SETTINGS ---
-  const spreadsheetId = "1oHeb_Vm2MyGo3h-pkRW9eTnd7IvgHlnmCctb-gJdPoI";
+  const spreadsheetId = "<enter your google sheetID>";
   const sheetName = "ERP Helpline"; 
   const ticketColumn = 2; // Column B
   const storeNameColumn = 3; // Column C
@@ -157,7 +157,7 @@ function onFormSubmit(e) {
                 submissionDetails + "\n\n" +
                 "Please keep this ID for your records.\n\n" +
                 "Thanks & Regards\n" +
-                "Team ERP\n" +
+                "Team Support\n" +
                 "[PHONE MASKED] | [PHONE MASKED] | [PHONE MASKED]\n" +
                 "Mon to Friday 11:00 - 7:00, Saturday 11:00 - 6:00"
         });
